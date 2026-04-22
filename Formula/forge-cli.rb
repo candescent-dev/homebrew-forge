@@ -6,23 +6,23 @@ class ForgeCli < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-fa8df2c-darwin-x64.tar.xz"
-      sha256 "b4c4da630b73820547228392df1d7db6e8c00c15768897ca8a27ce5ef2d9bb26"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-f68bb36-darwin-x64.tar.xz"
+      sha256 "18068647c230289335bb1e9beabee38755f0e2ae7bed132ec0505d68d8978c2c"
     end
     on_arm do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-fa8df2c-darwin-arm64.tar.xz"
-      sha256 "5aa9db28d6ee2c23a9e9d57ec198c80274eb5668da909289893e72a3b118e3e2"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-f68bb36-darwin-arm64.tar.xz"
+      sha256 "f5b3a662049515b3f0e5978a077950038dc200685de11fd4bc9b95b92ff91aab"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-fa8df2c-linux-x64.tar.xz"
-      sha256 "381f487e6fa0068be24f364c02467e61deb232613d0f77bc27c4544f0f897986"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-f68bb36-linux-x64.tar.xz"
+      sha256 "33cb1a0b2cc3b31e617dc288da15f31269224d2b0495f4f27691f07229dbd28f"
     end
     on_arm do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-fa8df2c-linux-arm64.tar.xz"
-      sha256 "4944577787f0ce3f96dfb458f96bd14afa40ba0d22406ae821c8ec375c6e3c9f"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v0.1.0-beta.1/forge-v0.1.0-beta.1-f68bb36-linux-arm64.tar.xz"
+      sha256 "63e2842a506880ad6fb672df95eaea61c99d2d43a9ec4a0799c772aee5421e04"
     end
   end
 
