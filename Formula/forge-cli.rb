@@ -1,4 +1,4 @@
-class Forge < Formula
+class ForgeCli < Formula
   desc "Candescent CLI — build, submit, and manage extensions"
   homepage "https://docs.candescent.com"
   version "0.1.0-beta.1"
