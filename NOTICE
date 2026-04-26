@@ -1,0 +1,24 @@
+Forge CLI — Interim Notice (Pre-release Beta)
+
+Copyright (c) 2026 Digital First Holdings LLC d/b/a Candescent.
+All rights reserved.
+
+The Forge CLI is currently distributed as a pre-release beta. Final
+license terms are being prepared. Use of this software is governed by
+the Candescent Developer Agreement at:
+
+    https://docs.candescent.com/guides/Legal/tcs/
+
+This software incorporates third-party open-source components,
+including but not limited to:
+
+  - oclif (https://oclif.io)              MIT License, (c) Salesforce.com, Inc.
+  - @inquirer/prompts                     MIT License
+  - chalk                                 MIT License
+  - conf                                  MIT License
+  - open                                  MIT License
+  - ora                                   MIT License
+
+Each component is the copyright of its respective owners and is
+licensed under its own terms. A complete THIRD_PARTY_LICENSES file
+with full attribution will be included in the next release.
