@@ -1,0 +1,70 @@
+Homebrew Tap for the Forge CLI — License Notice
+
+This repository contains TWO categories of content with DIFFERENT license
+terms. Each is described below.
+
+================================================================================
+1. Homebrew Formula and Tap Scaffolding (this repository)
+================================================================================
+
+The Homebrew formula files and supporting content in this repository — namely
+`Formula/forge-cli.rb`, README.md, this LICENSE file, and any CI / GitHub
+workflow configuration — are licensed under the BSD 2-Clause License,
+mirroring the prevailing convention for Homebrew taps.
+
+------------------------------------------------------------
+
+BSD 2-Clause License
+
+Copyright (c) 2026 Digital First Holdings LLC d/b/a Candescent.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+2. The Forge CLI Binary (downloaded by this formula)
+================================================================================
+
+The Forge CLI binary that this formula downloads and installs from the
+Releases of this repository
+(https://github.com/candescent-dev/homebrew-forge/releases) is PROPRIETARY
+software of Digital First Holdings LLC d/b/a Candescent.
+
+The Forge CLI binary is NOT licensed under the BSD 2-Clause License above.
+Its use is governed by the Candescent Developer Agreement, available at:
+
+    https://docs.candescent.com/guides/Legal/tcs/
+
+The Forge CLI binary additionally includes third-party open-source components,
+each licensed under its own terms; those notices are bundled with the binary
+itself (see THIRD_PARTY_LICENSES inside the installed package).
+
+================================================================================
+Contact
+================================================================================
+
+Digital First Holdings LLC d/b/a Candescent
+4 Concourse Parkway, Suite 400
+Atlanta, GA 30328
+
+Licensing questions: law.notices@candescent.com
