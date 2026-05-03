@@ -1,6 +1,6 @@
 # Homebrew Tap for the Forge CLI
 
-> ⚠️ **Pre-release beta.** The Forge CLI is currently distributed as a pre-release beta. Final license terms are being prepared. Use is governed by the [Candescent Developer Agreement](https://docs.candescent.com/guides/Legal/tcs/). See [`NOTICE`](./NOTICE) for interim attribution.
+> ⚠️ **Pre-release beta.** The Forge CLI is currently distributed as a pre-release beta. Behavior and flags may change between betas — pin a specific version in CI/CD until GA. See [`LICENSE`](./LICENSE) for the full license terms (BSD 2-Clause for this tap's formula and scaffolding; the Forge CLI binary itself is proprietary software of Candescent, used under the [Candescent Developer Agreement](https://docs.candescent.com/guides/Legal/tcs/)).
 
 Official Homebrew tap for the [**Forge CLI**](https://docs.candescent.com/guides/cli/overview) — the unifying command-line interface for the Candescent Forge developer experience.
 

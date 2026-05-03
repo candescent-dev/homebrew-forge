@@ -1,24 +1,21 @@
-Forge CLI — Interim Notice (Pre-release Beta)
+Forge CLI — Attribution Notice
 
 Copyright (c) 2026 Digital First Holdings LLC d/b/a Candescent.
 All rights reserved.
 
-The Forge CLI is currently distributed as a pre-release beta. Final
-license terms are being prepared. Use of this software is governed by
-the Candescent Developer Agreement at:
+This repository ships under the dual-license terms described in the LICENSE
+file in this same directory:
 
-    https://docs.candescent.com/guides/Legal/tcs/
+  - Homebrew formula and tap scaffolding (Formula/forge-cli.rb, README.md,
+    LICENSE, this NOTICE, CI configuration) — BSD 2-Clause License.
 
-This software incorporates third-party open-source components,
-including but not limited to:
+  - The Forge CLI binary downloaded by the formula — proprietary software of
+    Candescent, used under the Candescent Developer Agreement at:
 
-  - oclif (https://oclif.io)              MIT License, (c) Salesforce.com, Inc.
-  - @inquirer/prompts                     MIT License
-  - chalk                                 MIT License
-  - conf                                  MIT License
-  - open                                  MIT License
-  - ora                                   MIT License
+        https://docs.candescent.com/guides/Legal/tcs/
 
-Each component is the copyright of its respective owners and is
-licensed under its own terms. A complete THIRD_PARTY_LICENSES file
-with full attribution will be included in the next release.
+The Forge CLI binary incorporates third-party open-source components. A
+complete THIRD_PARTY_LICENSES file with full attribution is bundled inside
+the installed package itself (it is not shipped from this tap repository).
+
+For licensing questions: law.notices@candescent.com
