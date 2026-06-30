@@ -10,6 +10,7 @@ The formula in this tap (`forge-cli`) is updated automatically on every Forge CL
 
 ```bash
 brew tap candescent-dev/forge
+brew trust candescent-dev/forge
 brew install forge-cli
 ```
 
@@ -18,21 +19,16 @@ Verify:
 ```bash
 forge --version
 forge --help
+forge doctor
 ```
+
+`forge doctor` runs readiness checks for Node, auth, git/GitHub, Docker, the extensibility monorepo, and mobile tooling. Use `forge doctor --network` after `forge login` and `forge app select` to verify Developer Console reachability.
 
 ## Upgrade
 
 ```bash
 brew update
 brew upgrade forge-cli
-```
-
-After upgrading, refresh autocomplete so new commands appear in tab completion:
-
-```bash
-forge autocomplete --refresh-cache
-rm -f ~/.zcompdump*    # zsh only
-exec zsh               # zsh only — or restart your terminal
 ```
 
 ## Uninstall
@@ -55,7 +51,7 @@ Homebrew automatically selects the right tarball for your platform.
 
 ## Documentation
 
-The full Forge CLI documentation — prerequisites, command reference, walkthroughs, troubleshooting, and shell autocomplete setup — lives on the developer portal:
+The full Forge CLI documentation — prerequisites, command reference, walkthroughs, and troubleshooting — lives on the developer portal:
 
 - **Overview:** https://docs.candescent.com/guides/cli/overview
 - **Installation & prerequisites:** https://docs.candescent.com/guides/cli/installation
