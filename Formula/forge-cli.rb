@@ -1,28 +1,28 @@
 class ForgeCli < Formula
   desc "Candescent CLI — build, submit, and manage extensions"
   homepage "https://docs.candescent.com"
-  version "1.0.4-beta"
+  version "1.1.0-beta"
   license :cannot_represent
 
   on_macos do
     on_intel do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.0.4-beta/forge-v1.0.4-beta-eb6e342-darwin-x64.tar.xz"
-      sha256 "2a8d508583bbf52d0f19b7797b7785b831a7fb1318e470ff8971cebd49f5cb59"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.1.0-beta/forge-v1.1.0-beta-6b50d2c-darwin-x64.tar.xz"
+      sha256 "10bd73d2654f410771ecbe6dedab0748ad469f35093b5763e0e98c00d9f972c3"
     end
     on_arm do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.0.4-beta/forge-v1.0.4-beta-eb6e342-darwin-arm64.tar.xz"
-      sha256 "6705f42349f79430eb48a1e58320b87f1f52e6a8247c22669cd280f0df1eb3f3"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.1.0-beta/forge-v1.1.0-beta-6b50d2c-darwin-arm64.tar.xz"
+      sha256 "fafcc740a1885297d64be1a60dd1a703c47b098110b39dd7c8b0d67abd6185e8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.0.4-beta/forge-v1.0.4-beta-eb6e342-linux-x64.tar.xz"
-      sha256 "af4c4a5fcccc9096fdae4f7f7ae5a32fec0e564a0b9e63210807e34de68b9880"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.1.0-beta/forge-v1.1.0-beta-6b50d2c-linux-x64.tar.xz"
+      sha256 "d660909cbf5c1eeb091b1c30b7111553006c2922fa2852330e7016bf1b30d9e6"
     end
     on_arm do
-      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.0.4-beta/forge-v1.0.4-beta-eb6e342-linux-arm64.tar.xz"
-      sha256 "5246084f2f4624838752b8fba783bb92444f9cc4733472fb7d74656adbf2ca01"
+      url "https://github.com/candescent-dev/homebrew-forge/releases/download/v1.1.0-beta/forge-v1.1.0-beta-6b50d2c-linux-arm64.tar.xz"
+      sha256 "fd0e8095c19a9f06936012bb7e2140b0ee4f830bc01c36097eb27e066f0792db"
     end
   end
 
